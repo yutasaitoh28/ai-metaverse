@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>よくある質問 - AIメタバース</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .faq-answer {
+            display: none;
+            padding: 1.2rem;
+            background: rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .faq-answer.active {
+            display: block;
+        }
+
+        .faq-question {
+            padding: 1.2rem;
+            background: rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">AIメタバース</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="company.html">会社概要</a></li>
+                <li><a href="message.html">代表メッセージ</a></li>
+                <li><a href="faq.html">よくある質問</a></li>
+                <li><a href="#recruit">求人応募フォーム</a></li>
+                <li><a href="index.html#contact">お問い合わせ <i class="fas fa-chevron-right"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="faq-page">
+        <div class="faq-container">
+            <h1 class="faq-title">よくある質問</h1>
+            
+            <div class="faq-section">
+                <h2>サービスについて</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Q.</span>
+                            <p>AIメタバースのサービスはどのようなものですか？</p>
+                        </div>
+                        <div class="faq-answer">
+                            <span>A.</span>
+                            <p>当社では、AI技術を活用したメタバースプラットフォームの開発・提供を行っています。具体的には、バーチャル空間でのコミュニケーション、ビジネスミーティング、イベント開催など、様々な用途に対応したソリューションを提供しています。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Q.</span>
+                            <p>導入までの流れを教えてください。</p>
+                        </div>
+                        <div class="faq-answer">
+                            <span>A.</span>
+                            <p>導入までの流れは以下の通りです：<br>
+                            1. お問い合わせ<br>
+                            2. ヒアリング・要件定義<br>
+                            3. 提案書の作成<br>
+                            4. 契約締結<br>
+                            5. システム開発・導入<br>
+                            6. 運用開始</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Q.</span>
+                            <p>導入費用はどのくらいかかりますか？</p>
+                        </div>
+                        <div class="faq-answer">
+                            <span>A.</span>
+                            <p>導入費用は、お客様のご要望やシステム規模によって異なります。まずはお気軽にご相談ください。お客様のご予算や要件に合わせた最適なプランをご提案させていただきます。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <h2>技術について</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Q.</span>
+                            <p>どのような技術を使用していますか？</p>
+                        </div>
+                        <div class="faq-answer">
+                            <span>A.</span>
+                            <p>当社では、最新のAI技術、3Dグラフィックス、WebRTC、ブロックチェーンなどの技術を組み合わせて、高品質なメタバース体験を提供しています。セキュリティ面でも最新の技術を採用し、安全な環境を確保しています。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Q.</span>
+                            <p>システムの安定性はどのように確保していますか？</p>
+                        </div>
+                        <div class="faq-answer">
+                            <span>A.</span>
+                            <p>当社のシステムは、複数のデータセンターで冗長化されており、24時間365日の監視体制を整えています。また、定期的なメンテナンスやアップデートを行い、常に最適な状態を維持しています。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <h2>サポートについて</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Q.</span>
+                            <p>サポート体制はどのようになっていますか？</p>
+                        </div>
+                        <div class="faq-answer">
+                            <span>A.</span>
+                            <p>平日9:00-18:00の間、専任のサポートスタッフが対応いたします。緊急時は24時間対応可能な体制も整えております。メール、電話、チャットなど、お客様のご要望に応じたサポート方法をご提供いたします。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Q.</span>
+                            <p>システムのアップデートはどのように行われますか？</p>
+                        </div>
+                        <div class="faq-answer">
+                            <span>A.</span>
+                            <p>システムのアップデートは、お客様のご利用状況を考慮した上で、事前にご連絡の上で実施いたします。メンテナンス時間は最小限に抑え、お客様の業務に支障が出ないよう配慮いたします。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AIメタバース. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // FAQアコーディオン機能
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const answer = question.nextElementSibling;
+                    const isOpen = answer.classList.contains('active');
+                    
+                    // すべての回答を閉じる
+                    document.querySelectorAll('.faq-answer').forEach(ans => {
+                        ans.classList.remove('active');
+                    });
+                    
+                    // クリックされた質問の回答を開く
+                    if (!isOpen) {
+                        answer.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
